@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashby Token Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ashby Job Fetcher</h1>
+        <p>Enter your Ashby API token to fetch job listings</p>
+        
+        <form method="POST">
+            <div class="form-group">
+                <label for="ashby_token">Ashby Token:</label>
+                <input type="text" id="ashby_token" name="ashby_token" placeholder="Enter your Ashby API token" required>
+            </div>
+            <button type="submit" class="submit-btn">Fetch Jobs</button>
+        </form>
+        
+        {% if error %}
+        <div class="error">
+            <strong>Error:</strong> {{ error }}
+            <p><a href="/">Try again</a></p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html> 

@@ -3,28 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashby Job Fetcher</title>
+    <title>Ashby Jobs Results</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Ashby Job Fetcher</h1>
+        <h1>Ashby Jobs Results</h1>
         
-        <form method="POST">
-            <div class="form-group">
-                <label for="ashby_token">Ashby Token:</label>
-                <input type="text" id="ashby_token" name="ashby_token" placeholder="Enter your Ashby API token" required>
-            </div>
-            <button type="submit" class="submit-btn">Fetch Jobs</button>
-        </form>
-        
-        {% if error %}
-        <div class="error">
-            <strong>Error:</strong> {{ error }}
-        </div>
-        {% endif %}
-        
-        {% if jobs %}
         <div class="results-section">
             <h2>Job Results (Name, ID format):</h2>
             <div class="job-list">
@@ -38,8 +23,11 @@
             
             <h3>Raw JSON Response:</h3>
             <div class="raw-json">{{ raw_json }}</div>
+            
+            <div style="margin-top: 20px;">
+                <a href="/" class="submit-btn" style="text-decoration: none; display: inline-block; text-align: center;">Fetch More Jobs</a>
+            </div>
         </div>
-        {% endif %}
     </div>
 </body>
 </html> 

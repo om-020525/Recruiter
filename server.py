@@ -11,7 +11,7 @@ def index():
         ashby_token = request.form.get('ashby_token')
         
         if not ashby_token:
-            return render_template('index.html', error="Please provide an Ashby token")
+            return render_template('AshbyToken.html', error="Please provide an Ashby token")
         
         try:
             # Call Ashby API
@@ -44,16 +44,16 @@ def index():
             # Format raw JSON for display
             raw_json = json.dumps(data, indent=2)
             
-            return render_template('index.html', jobs=jobs, raw_json=raw_json)
+            return render_template('results.html', jobs=jobs, raw_json=raw_json)
             
         except requests.exceptions.RequestException as e:
-            return render_template('index.html', error=f"API request failed: {str(e)}")
+            return render_template('AshbyToken.html', error=f"API request failed: {str(e)}")
         except json.JSONDecodeError as e:
-            return render_template('index.html', error=f"Failed to parse JSON response: {str(e)}")
+            return render_template('AshbyToken.html', error=f"Failed to parse JSON response: {str(e)}")
         except Exception as e:
-            return render_template('index.html', error=f"An error occurred: {str(e)}")
+            return render_template('AshbyToken.html', error=f"An error occurred: {str(e)}")
     
-    return render_template('index.html')
+    return render_template('AshbyToken.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
