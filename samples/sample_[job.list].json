@@ -1,0 +1,524 @@
+{
+  "success": true,
+  "moreDataAvailable": true,
+  "nextCursor": "G8",
+  "syncToken": "jYnEBmjzR",
+  "results": [
+    {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "title": "this job",
+      "confidential": true,
+      "status": "Draft",
+      "employmentType": "string",
+      "locationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "departmentId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "defaultInterviewPlanId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "interviewPlanIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customFields": [
+        {
+          "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+          "title": "Expected start date",
+          "value": "2022-11-10T19:47:56.795Z"
+        }
+      ],
+      "jobPostingIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customRequisitionId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "brandId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "hiringTeam": [
+        {
+          "email": "test@ashbyhq.com",
+          "firstName": "Joey",
+          "lastName": "Joe",
+          "role": "Hiring Manager",
+          "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+        }
+      ],
+      "author": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test@ashbyhq.com",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2022-08-12T20:29:56.964Z"
+      },
+      "createdAt": "2022-08-12T20:29:56.964Z",
+      "updatedAt": "2022-08-12T20:29:56.964Z",
+      "openedAt": "2022-08-12T20:29:56.964Z",
+      "closedAt": "2022-08-12T20:29:56.964Z",
+      "location": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "name": "Bay Area Office",
+        "isArchived": false,
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States",
+            "addressRegion": "California",
+            "addressLocality": "San Francisco",
+            "postalCode": 94108,
+            "streetAddress": "49 Geary St Suite 411"
+          }
+        },
+        "isRemote": false,
+        "workplaceType": "Hybrid",
+        "parentLocationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "type": "Location"
+      },
+      "openings": [
+        {
+          "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openedAt": "2022-08-12T20:29:56.964Z",
+          "closedAt": "2022-08-12T20:29:56.964Z",
+          "isArchived": false,
+          "archivedAt": "2022-08-12T20:29:56.964Z",
+          "closeReasonId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openingState": "Approved",
+          "latestVersion": {
+            "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "identifier": "string",
+            "description": "string",
+            "authorId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "createdAt": "2022-08-12T20:29:56.964Z",
+            "teamId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "jobIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "targetHireDate": "string",
+            "targetStartDate": "string",
+            "isBackfill": true,
+            "employmentType": "FullTime",
+            "locationIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "hiringTeam": [
+              {
+                "email": "test@ashbyhq.com",
+                "firstName": "Joey",
+                "lastName": "Joe",
+                "role": "Hiring Manager",
+                "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+              }
+            ],
+            "customFields": [
+              {
+                "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+                "title": "Expected start date",
+                "value": "2022-11-10T19:47:56.795Z"
+              }
+            ]
+          }
+        }
+      ],
+      "compensation": {
+        "compensationTiers": [
+          {
+            "id": "da53719f-a115-400b-9d30-9b875428f1e7",
+            "title": "Zone A",
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 72023.45,
+                "maxValue": 100000
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1% – 1.4%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1,
+                "maxValue": 1.4
+              }
+            ],
+            "tierSummary": "€72K – €100K • 1% – 1.4%"
+          },
+          {
+            "id": "81362ab1-739e-44f5-88d9-dbc5c731624c",
+            "title": "Zone B",
+            "additionalInformation": "Commuter Benefits",
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 95010.12,
+                "maxValue": 270450
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1.8% – 2.511%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1.8,
+                "maxValue": 2.511
+              },
+              {
+                "id": "5eb15197-8664-48fd-99cf-fbdc9d25149d",
+                "summary": "Offers Bonus",
+                "componentType": "Bonus",
+                "interval": "1 YEAR",
+                "minValue": null,
+                "maxValue": null
+              }
+            ],
+            "tierSummary": "€95K – €270K • 1.8% – 2.511% • Offers Bonus • Commuter Benefits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "title": "that job",
+      "confidential": true,
+      "status": "Draft",
+      "employmentType": "string",
+      "locationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "departmentId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "defaultInterviewPlanId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "interviewPlanIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customFields": [
+        {
+          "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+          "title": "Expected start date",
+          "value": "2022-11-10T19:47:56.795Z"
+        }
+      ],
+      "jobPostingIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customRequisitionId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "brandId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "hiringTeam": [
+        {
+          "email": "test@ashbyhq.com",
+          "firstName": "Joey",
+          "lastName": "Joe",
+          "role": "Hiring Manager",
+          "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+        }
+      ],
+      "author": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test@ashbyhq.com",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2022-08-12T20:29:56.964Z"
+      },
+      "createdAt": "2022-08-12T20:29:56.964Z",
+      "updatedAt": "2022-08-12T20:29:56.964Z",
+      "openedAt": "2022-08-12T20:29:56.964Z",
+      "closedAt": "2022-08-12T20:29:56.964Z",
+      "location": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "name": "Bay Area Office",
+        "isArchived": false,
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States",
+            "addressRegion": "California",
+            "addressLocality": "San Francisco",
+            "postalCode": 94108,
+            "streetAddress": "49 Geary St Suite 411"
+          }
+        },
+        "isRemote": false,
+        "workplaceType": "Hybrid",
+        "parentLocationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "type": "Location"
+      },
+      "openings": [
+        {
+          "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openedAt": "2022-08-12T20:29:56.964Z",
+          "closedAt": "2022-08-12T20:29:56.964Z",
+          "isArchived": false,
+          "archivedAt": "2022-08-12T20:29:56.964Z",
+          "closeReasonId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openingState": "Approved",
+          "latestVersion": {
+            "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "identifier": "string",
+            "description": "string",
+            "authorId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "createdAt": "2022-08-12T20:29:56.964Z",
+            "teamId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "jobIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "targetHireDate": "string",
+            "targetStartDate": "string",
+            "isBackfill": true,
+            "employmentType": "FullTime",
+            "locationIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "hiringTeam": [
+              {
+                "email": "test@ashbyhq.com",
+                "firstName": "Joey",
+                "lastName": "Joe",
+                "role": "Hiring Manager",
+                "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+              }
+            ],
+            "customFields": [
+              {
+                "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+                "title": "Expected start date",
+                "value": "2022-11-10T19:47:56.795Z"
+              }
+            ]
+          }
+        }
+      ],
+      "compensation": {
+        "compensationTiers": [
+          {
+            "id": "da53719f-a115-400b-9d30-9b875428f1e7",
+            "title": "Zone A",
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 72023.45,
+                "maxValue": 100000
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1% – 1.4%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1,
+                "maxValue": 1.4
+              }
+            ],
+            "tierSummary": "€72K – €100K • 1% – 1.4%"
+          },
+          {
+            "id": "81362ab1-739e-44f5-88d9-dbc5c731624c",
+            "title": "Zone B",
+            "additionalInformation": "Commuter Benefits",
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 95010.12,
+                "maxValue": 270450
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1.8% – 2.511%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1.8,
+                "maxValue": 2.511
+              },
+              {
+                "id": "5eb15197-8664-48fd-99cf-fbdc9d25149d",
+                "summary": "Offers Bonus",
+                "componentType": "Bonus",
+                "interval": "1 YEAR",
+                "minValue": null,
+                "maxValue": null
+              }
+            ],
+            "tierSummary": "€95K – €270K • 1.8% – 2.511% • Offers Bonus • Commuter Benefits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "title": "what job",
+      "confidential": true,
+      "status": "Draft",
+      "employmentType": "string",
+      "locationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "departmentId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "defaultInterviewPlanId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "interviewPlanIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customFields": [
+        {
+          "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+          "title": "Expected start date",
+          "value": "2022-11-10T19:47:56.795Z"
+        }
+      ],
+      "jobPostingIds": [
+        "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+      ],
+      "customRequisitionId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "brandId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "hiringTeam": [
+        {
+          "email": "test@ashbyhq.com",
+          "firstName": "Joey",
+          "lastName": "Joe",
+          "role": "Hiring Manager",
+          "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+        }
+      ],
+      "author": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "firstName": "Test",
+        "lastName": "User",
+        "email": "test@ashbyhq.com",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2022-08-12T20:29:56.964Z"
+      },
+      "createdAt": "2022-08-12T20:29:56.964Z",
+      "updatedAt": "2022-08-12T20:29:56.964Z",
+      "openedAt": "2022-08-12T20:29:56.964Z",
+      "closedAt": "2022-08-12T20:29:56.964Z",
+      "location": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "name": "Bay Area Office",
+        "isArchived": false,
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States",
+            "addressRegion": "California",
+            "addressLocality": "San Francisco",
+            "postalCode": 94108,
+            "streetAddress": "49 Geary St Suite 411"
+          }
+        },
+        "isRemote": false,
+        "workplaceType": "Hybrid",
+        "parentLocationId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "type": "Location"
+      },
+      "openings": [
+        {
+          "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openedAt": "2022-08-12T20:29:56.964Z",
+          "closedAt": "2022-08-12T20:29:56.964Z",
+          "isArchived": false,
+          "archivedAt": "2022-08-12T20:29:56.964Z",
+          "closeReasonId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+          "openingState": "Approved",
+          "latestVersion": {
+            "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "identifier": "string",
+            "description": "string",
+            "authorId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "createdAt": "2022-08-12T20:29:56.964Z",
+            "teamId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+            "jobIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "targetHireDate": "string",
+            "targetStartDate": "string",
+            "isBackfill": true,
+            "employmentType": "FullTime",
+            "locationIds": [
+              "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+            ],
+            "hiringTeam": [
+              {
+                "email": "test@ashbyhq.com",
+                "firstName": "Joey",
+                "lastName": "Joe",
+                "role": "Hiring Manager",
+                "userId": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+              }
+            ],
+            "customFields": [
+              {
+                "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+                "title": "Expected start date",
+                "value": "2022-11-10T19:47:56.795Z"
+              }
+            ]
+          }
+        }
+      ],
+      "compensation": {
+        "compensationTiers": [
+          {
+            "id": "da53719f-a115-400b-9d30-9b875428f1e7",
+            "title": "Zone A",
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 72023.45,
+                "maxValue": 100000
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1% – 1.4%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1,
+                "maxValue": 1.4
+              }
+            ],
+            "tierSummary": "€72K – €100K • 1% – 1.4%"
+          },
+          {
+            "id": "81362ab1-739e-44f5-88d9-dbc5c731624c",
+            "title": "Zone B",
+            "additionalInformation": "Commuter Benefits",
+            "components": [
+              {
+                "id": "fb8efeaa-bea1-4713-9012-cbd25fc3dc89",
+                "summary": "€72K – €100K",
+                "componentType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "EUR",
+                "minValue": 95010.12,
+                "maxValue": 270450
+              },
+              {
+                "id": "93c62578-ed5d-42dd-8186-64ad5ba5603d",
+                "summary": "1.8% – 2.511%",
+                "componentType": "EquityPercentage",
+                "interval": "NONE",
+                "minValue": 1.8,
+                "maxValue": 2.511
+              },
+              {
+                "id": "5eb15197-8664-48fd-99cf-fbdc9d25149d",
+                "summary": "Offers Bonus",
+                "componentType": "Bonus",
+                "interval": "1 YEAR",
+                "minValue": null,
+                "maxValue": null
+              }
+            ],
+            "tierSummary": "€95K – €270K • 1.8% – 2.511% • Offers Bonus • Commuter Benefits"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Token Input</h1>
+        
+        <form method="POST" id="tokenForm" onsubmit="submitTokens()">
+            <div class="form-group">
+                <label for="ashby_token">Ashby Token:</label>
+                <input type="text" id="ashby_token" name="ashby_token" placeholder="Enter Ashby token" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Google Sign-In:</label>
+                <div id="g_id_onload"
+                     data-client_id="{{ google_client_id }}"
+                     data-scope="{{ google_scopes }}"
+                     data-callback="handleCredentialResponse"
+                     data-auto_prompt="false">
+                </div>
+                <div class="g_id_signin" data-type="standard"></div>
+                <input type="hidden" id="google_token" name="google_token" value="">
+            </div>
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    
+    <script>
+        let accessToken = null;
+        
+        function handleCredentialResponse(response) {
+            google.accounts.oauth2.initTokenClient({
+                client_id: "{{ google_client_id }}",
+                scope: "{{ google_scopes }}",
+                callback: (tokenResponse) => {
+                    accessToken = tokenResponse.access_token;
+                }
+            }).requestAccessToken();
+        }
+        
+        function submitTokens() {
+            document.getElementById('google_token').value = accessToken || '';
+        }
+    </script>
+</body>
+</html> 

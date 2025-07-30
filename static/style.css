@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     max-width: 1200px;
@@ -6,6 +7,7 @@ body {
     background-color: #f5f5f5;
 }
 
+/* Container */
 .container {
     background-color: white;
     padding: 30px;
@@ -14,16 +16,37 @@ body {
     margin-bottom: 20px;
 }
 
+/* Headings */
 h1 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
 }
 
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Form Sections */
+.form-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 4px solid #4CAF50;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
 
+/* Form Elements */
 label {
     display: block;
     margin-bottom: 5px;
@@ -50,6 +73,7 @@ select {
     cursor: pointer;
 }
 
+/* Buttons */
 .submit-btn {
     background-color: #4CAF50;
     color: white;
@@ -65,8 +89,37 @@ select {
     background-color: #45a049;
 }
 
-.results-section {
-    margin-top: 30px;
+/* Messages */
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #c62828;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Job Display */
+.job-summary {
+    background-color: #f0f8f0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #2e7d32;
+}
+
+.job-summary h3 {
+    color: #2e7d32;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .job-list {
@@ -93,35 +146,4 @@ select {
 .job-id {
     color: #666;
     font-size: 14px;
-}
-
-.raw-json {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    overflow-x: auto;
-    font-family: 'Courier New', monospace;
-    font-size: 12px;
-    white-space: pre-wrap;
-    max-height: 400px;
-    overflow-y: auto;
-}
-
-.error {
-    background-color: #ffebee;
-    color: #c62828;
-    padding: 15px;
-    border-radius: 5px;
-    border-left: 4px solid #c62828;
-}
-
-h2 {
-    color: #333;
-    margin-bottom: 15px;
-}
-
-h3 {
-    color: #555;
-    margin-bottom: 10px;
 } 

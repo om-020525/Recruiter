@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "results": {
+    "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+    "createdAt": "2022-08-12T20:29:56.964Z",
+    "updatedAt": "2022-08-12T20:29:56.964Z",
+    "name": "Adam Hart",
+    "primaryEmailAddress": {
+      "value": "test@ashbyhq.com",
+      "type": "Work",
+      "isPrimary": true
+    },
+    "emailAddresses": [
+      {
+        "value": "test@ashbyhq.com",
+        "type": "Work",
+        "isPrimary": true
+      }
+    ],
+    "primaryPhoneNumber": {
+      "value": "test@ashbyhq.com",
+      "type": "Work",
+      "isPrimary": true
+    },
+    "phoneNumbers": [
+      {
+        "value": "test@ashbyhq.com",
+        "type": "Work",
+        "isPrimary": true
+      }
+    ],
+    "socialLinks": [
+      {
+        "url": "https://linkedin.com/in/user",
+        "type": "LinkedIn"
+      }
+    ],
+    "tags": [
+      {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "title": "Senior Candidate",
+        "isArchived": false
+      }
+    ],
+    "position": "Software Engineer",
+    "company": "Auction.com",
+    "school": "Princeton University",
+    "applicationIds": [
+      "e9ed20fd-d45f-4aad-8a00-a19bfba0083e"
+    ],
+    "resumeFileHandle": {
+      "id": "15d2624d-0a81-4f94-a2ed-94980f430b3f",
+      "name": "resume.pdf",
+      "handle": "eyJoYW5kbGUiOnsidHlwZSI6IkNhbmRpZGF0ZUZpbGUiLCJm"
+    },
+    "fileHandles": [
+      {
+        "id": "15d2624d-0a81-4f94-a2ed-94980f430b3f",
+        "name": "resume.pdf",
+        "handle": "eyJoYW5kbGUiOnsidHlwZSI6IkNhbmRpZGF0ZUZpbGUiLCJm"
+      }
+    ],
+    "customFields": [
+      {
+        "id": "650e5f74-32db-4a0a-b61b-b9afece05023",
+        "title": "Expected start date",
+        "value": "2022-11-10T19:47:56.795Z"
+      }
+    ],
+    "profileUrl": "string",
+    "source": {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "title": "Applied",
+      "isArchived": false,
+      "sourceType": {
+        "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+        "title": "Inbound",
+        "isArchived": false
+      }
+    },
+    "creditedToUser": {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test@ashbyhq.com",
+      "globalRole": "Organization Admin",
+      "isEnabled": true,
+      "updatedAt": "2022-08-12T20:29:56.964Z"
+    },
+    "timezone": "string",
+    "primaryLocation": {
+      "id": "e9ed20fd-d45f-4aad-8a00-a19bfba0083e",
+      "locationSummary": "United States, California, San Francisco",
+      "locationComponents": [
+        {
+          "type": "Country",
+          "name": "United States"
+        },
+        {
+          "type": "Region",
+          "name": "California"
+        },
+        {
+          "type": "City",
+          "name": "San Francisco"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Downloader</h1>
+        
+        {% if error %}
+            <div class="error">
+                <strong>Error:</strong> {{ error }}
+            </div>
+        {% endif %}
+        
+        {% if success_message %}
+            <div class="success-message">
+                <strong>Success:</strong> {{ success_message }}
+            </div>
+        {% endif %}
+        
+        {% if jobs %}
+            <div class="form-section">
+                <h2>Select a Job</h2>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="job_id">Choose a job to retrieve resumes:</label>
+                        <select id="job_id" name="job_id" required>
+                            <option value="">-- Select a Job --</option>
+                            {% for job in jobs %}
+                                <option value="{{ job.id }}" 
+                                    {% if selected_job_id == job.id %}selected{% endif %}>
+                                    {{ job.name }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Retrieve Resume</button>
+                </form>
+            </div>
+            
+            <div class="job-summary">
+                <h3>Available Jobs ({{ jobs|length }} total)</h3>
+                <div class="job-list">
+                    {% for job in jobs %}
+                        <div class="job-item">
+                            <div class="job-name">{{ job.name }}</div>
+                            <div class="job-id">ID: {{ job.id }}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+            <div class="form-section">
+                <p>No jobs available. Please check your Ashby token and try again.</p>
+                <a href="{{ url_for('index') }}" class="submit-btn" style="display: inline-block; text-decoration: none; text-align: center;">
+                    Back to Token Input
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html> 
