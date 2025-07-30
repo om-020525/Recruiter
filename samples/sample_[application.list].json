@@ -1,0 +1,1785 @@
+{
+  "success": true,
+  "moreDataAvailable": true,
+  "nextCursor": "Ya6",
+  "results": [
+    {
+      "id": "4c8f5e0d-8d67-4202-9091-e3fa06f947ce",
+      "createdAt": "2023-08-18T21:39:15.311Z",
+      "updatedAt": "2025-02-14T13:09:54.808Z",
+      "archivedAt": "2024-03-10T05:33:55.854Z",
+      "candidate": {
+        "id": "6e772317-ee41-4c7b-976b-2578f7ff9821",
+        "name": "Daniel Campos",
+        "primaryEmailAddress": {
+          "value": "dfcf93@hotmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "fe0e5033-5d19-44dc-b46b-db687b50e363",
+      "createdAt": "2023-08-18T21:40:00.876Z",
+      "updatedAt": "2025-02-14T13:10:14.629Z",
+      "archivedAt": "2023-09-21T03:05:55.581Z",
+      "candidate": {
+        "id": "77ec70e4-f0c5-4cbe-ac37-32741fa9da55",
+        "name": "Shubajit Saha",
+        "primaryEmailAddress": {
+          "value": "shuvojitcse@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "(+91) 8240798052",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "4b2879c1-1151-422b-a01a-e69da64e0501",
+      "createdAt": "2023-08-19T22:27:25.879Z",
+      "updatedAt": "2025-02-14T13:09:54.564Z",
+      "archivedAt": "2023-08-28T22:14:58.912Z",
+      "candidate": {
+        "id": "ffd0669c-65c7-4be7-92c2-575a5d7a738a",
+        "name": "Shubham Gupta"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "0e973367-0d7c-4ef8-889b-44f6965a02b0",
+        "text": "Did Not Respond to Outreach",
+        "reasonType": "Other",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "9f353b65-4fc6-4cc8-b20d-ce736c384a4c",
+      "createdAt": "2023-08-19T22:32:52.789Z",
+      "updatedAt": "2025-02-14T13:10:04.345Z",
+      "archivedAt": "2024-03-10T06:31:05.123Z",
+      "candidate": {
+        "id": "1c9e39c9-57ed-4d49-8c41-aca280ee79a5",
+        "name": "Gautam Nagpal"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "f4986da6-4c7c-4439-b556-0af014c7f278",
+        "title": "Referral",
+        "isArchived": false,
+        "sourceType": {
+          "id": "b629a2f9-2f9e-4d17-a85b-52c92741c04e",
+          "title": "Referral",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "5e86b3d8-4805-49a2-98d1-66cfe8939aa7",
+        "text": "Accepted Other Offer",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "73b87a05-5cfb-41ee-8db0-a44aa028819f",
+      "createdAt": "2023-08-19T22:42:38.005Z",
+      "updatedAt": "2025-02-14T13:09:58.809Z",
+      "archivedAt": "2023-08-25T21:06:23.460Z",
+      "candidate": {
+        "id": "5b1fd556-593d-41c2-9e65-e877744b4c29",
+        "name": "Ashish Katiyar"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "a7f3f967-9a44-438c-8295-86cc514c34b2",
+      "createdAt": "2023-08-19T22:43:13.290Z",
+      "updatedAt": "2025-02-14T13:10:05.137Z",
+      "archivedAt": "2023-12-05T18:04:01.181Z",
+      "candidate": {
+        "id": "1702128d-5232-4606-8540-f0c1e6da949d",
+        "name": "Aman Neelappa",
+        "primaryEmailAddress": {
+          "value": "aman313@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "0e973367-0d7c-4ef8-889b-44f6965a02b0",
+        "text": "Did Not Respond to Outreach",
+        "reasonType": "Other",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "4d47cb66-2604-4864-8ce9-2dd9dd2e1f3c",
+      "createdAt": "2023-08-19T22:47:51.367Z",
+      "updatedAt": "2025-02-14T13:09:54.873Z",
+      "archivedAt": "2024-03-10T06:32:53.053Z",
+      "candidate": {
+        "id": "87e85cf7-0dfa-4f9e-a758-b7338511f887",
+        "name": "Kiriti Badam",
+        "primaryEmailAddress": {
+          "value": "kiriti.badam93@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "60ccbb47-3709-481c-97de-ab5cbaf238ea",
+        "text": "Not Interested after Outreach",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "9b8ed81b-a8a1-49c3-86bc-b12c2a4603f1",
+      "createdAt": "2023-08-19T22:49:29.228Z",
+      "updatedAt": "2025-02-14T13:10:04.056Z",
+      "archivedAt": "2024-03-10T06:32:42.891Z",
+      "candidate": {
+        "id": "5c6626f9-3b16-4d1c-938a-2ce181304a95",
+        "name": "Harsh Agarwal",
+        "primaryEmailAddress": {
+          "value": "harshitagarwal90@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "5e86b3d8-4805-49a2-98d1-66cfe8939aa7",
+        "text": "Accepted Other Offer",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "f57d28fe-60f8-4e87-8f56-7414996cf15e",
+      "createdAt": "2023-08-19T22:51:12.989Z",
+      "updatedAt": "2025-02-14T13:10:13.925Z",
+      "archivedAt": "2024-03-10T05:34:10.058Z",
+      "candidate": {
+        "id": "6e5c142b-635d-4b91-ba29-7d598f8b00f6",
+        "name": "Jeniya Tabassum"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "c3b78262-9dc7-48e2-b5fa-894844b78cc0",
+      "createdAt": "2023-08-19T22:53:52.463Z",
+      "updatedAt": "2025-02-14T13:10:08.249Z",
+      "archivedAt": "2024-03-10T05:43:35.286Z",
+      "candidate": {
+        "id": "5a7b523b-7aed-40e0-acc8-b339fbf3a3d5",
+        "name": "Shivam Khandelwal",
+        "primaryEmailAddress": {
+          "value": "shivam17021996@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "+91-946-148-2200",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "60ccbb47-3709-481c-97de-ab5cbaf238ea",
+        "text": "Not Interested after Outreach",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "8856bd91-6f21-4175-a1cc-7e0a4634bbe2",
+      "createdAt": "2023-08-19T22:54:56.194Z",
+      "updatedAt": "2025-02-14T13:10:01.502Z",
+      "archivedAt": "2023-09-06T18:42:34.832Z",
+      "candidate": {
+        "id": "7643e79d-71cf-4f0d-a5c9-034d75b7ea1b",
+        "name": "Ankit Gupta"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "dd04ca03-bfdb-4c63-b29b-a3d643e0b683",
+      "createdAt": "2023-08-19T22:55:30.057Z",
+      "updatedAt": "2025-02-14T13:10:11.411Z",
+      "candidate": {
+        "id": "96fe49f3-4466-474c-a2fd-db14b51f0ce7",
+        "name": "Arshdeep Singh",
+        "primaryEmailAddress": {
+          "value": "arshdeep.50625@gmail.comÍ",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "(+91) 9582839784",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Hired",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "7fa09e20-acac-42c1-a01b-0026fc45f176",
+        "title": "Hired",
+        "type": "Hired",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 16,
+        "interviewStageGroupId": "84e58f41-197e-4dbf-bc73-d5dfa649c4af"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": null,
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "936757f9-73d1-48b5-bad4-bcdbb96812e2",
+      "createdAt": "2023-08-19T22:55:59.659Z",
+      "updatedAt": "2025-02-14T13:10:03.296Z",
+      "archivedAt": "2023-09-02T05:54:35.891Z",
+      "candidate": {
+        "id": "6f23ae78-a462-40d4-9199-9512a6c213b8",
+        "name": "Aashraya Sachdeva"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "5e86b3d8-4805-49a2-98d1-66cfe8939aa7",
+        "text": "Accepted Other Offer",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "65ce68f3-0afa-442e-ae5a-9e7c52dc584f",
+      "createdAt": "2023-08-19T22:57:00.112Z",
+      "updatedAt": "2025-02-14T13:09:57.490Z",
+      "archivedAt": "2023-10-18T16:24:57.657Z",
+      "candidate": {
+        "id": "83169346-27e1-4961-a965-8e71f3b0d839",
+        "name": "Chirag Agrawal",
+        "primaryEmailAddress": {
+          "value": "chiragrawal94@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "60e2a92c-1960-439f-b2a7-b4fcd8d6bba8",
+      "createdAt": "2023-08-19T22:57:33.672Z",
+      "updatedAt": "2025-02-14T13:09:56.964Z",
+      "archivedAt": "2023-09-06T18:41:56.682Z",
+      "candidate": {
+        "id": "5980ea29-e9a3-4920-980f-8bbd152de058",
+        "name": "shubham soni",
+        "primaryEmailAddress": {
+          "value": "shubham.soni.iit@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "+917363894741",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "03de42b8-f880-42c0-afa3-9fd2fe10ece6",
+        "text": "Withdrew from Process",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "752bffa6-9904-48be-a3f4-764ead07094c",
+      "createdAt": "2023-08-19T22:58:43.144Z",
+      "updatedAt": "2025-02-14T13:09:58.999Z",
+      "candidate": {
+        "id": "e2c67074-4178-4150-b766-cd63b4fc9cd6",
+        "name": "Abhishek Niranjan",
+        "primaryEmailAddress": {
+          "value": "abhishek.niranjan.iitkgp@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "8513902048",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Hired",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "7fa09e20-acac-42c1-a01b-0026fc45f176",
+        "title": "Hired",
+        "type": "Hired",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 16,
+        "interviewStageGroupId": "84e58f41-197e-4dbf-bc73-d5dfa649c4af"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": null,
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "84c5fa4a-0ad0-49a9-8a86-565cf2775a87",
+      "createdAt": "2023-08-19T23:00:22.685Z",
+      "updatedAt": "2025-02-14T13:10:00.851Z",
+      "archivedAt": "2023-09-17T15:40:42.135Z",
+      "candidate": {
+        "id": "c9b8da2e-0b8f-4808-8237-a807fcb91aab",
+        "name": "Pranit Chawla"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "dd1d37c9-4ce0-4dbb-a565-1dcac463c20c",
+        "title": "Ashby Chrome Extension",
+        "isArchived": false,
+        "sourceType": {
+          "id": "c0a67bc8-01dc-4b9f-bd18-87338ec5fd87",
+          "title": "Sourced",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "72eae2d7-8d17-46cf-85af-37e56bc09307",
+      "createdAt": "2023-08-19T23:24:31.150Z",
+      "updatedAt": "2025-02-14T13:09:58.710Z",
+      "archivedAt": "2023-09-02T06:02:46.813Z",
+      "candidate": {
+        "id": "e4610f7c-e852-4893-92a9-340f6211f03e",
+        "name": "Adwait Deshpande",
+        "primaryEmailAddress": {
+          "value": "adwait@gatech.edu",
+          "type": "Personal",
+          "isPrimary": true
+        },
+        "primaryPhoneNumber": {
+          "value": "+1 (404)-754-8876",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "f4986da6-4c7c-4439-b556-0af014c7f278",
+        "title": "Referral",
+        "isArchived": false,
+        "sourceType": {
+          "id": "b629a2f9-2f9e-4d17-a85b-52c92741c04e",
+          "title": "Referral",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "024632fd-8ee1-4178-8040-9dd70ab2d3cc",
+      "createdAt": "2023-08-19T23:25:13.380Z",
+      "updatedAt": "2025-02-14T13:09:47.686Z",
+      "archivedAt": "2023-08-21T00:52:21.259Z",
+      "candidate": {
+        "id": "410b9e93-7077-4b2e-83f3-6f14898386dc",
+        "name": "Kia Rahmani"
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "f4986da6-4c7c-4439-b556-0af014c7f278",
+        "title": "Referral",
+        "isArchived": false,
+        "sourceType": {
+          "id": "b629a2f9-2f9e-4d17-a85b-52c92741c04e",
+          "title": "Referral",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "bf13440d-dc85-4c72-b33b-d800c2b99c82",
+        "text": "Lacks Skills/Qualifications",
+        "reasonType": "RejectedByOrg",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    },
+    {
+      "id": "4d12a57f-2acf-444b-afd8-f322939096ca",
+      "createdAt": "2023-08-19T23:30:35.047Z",
+      "updatedAt": "2025-02-14T13:09:54.834Z",
+      "archivedAt": "2024-03-22T03:00:42.630Z",
+      "candidate": {
+        "id": "220c608f-f436-4049-9e76-1e381bfe76c1",
+        "name": "Akshit Trehan",
+        "primaryEmailAddress": {
+          "value": "atrehan1996@gmail.com",
+          "type": "Personal",
+          "isPrimary": true
+        }
+      },
+      "status": "Archived",
+      "customFields": [],
+      "currentInterviewStage": {
+        "id": "0ec1baa8-8b57-4ff7-9247-945891d2f85c",
+        "title": "Archived",
+        "type": "Archived",
+        "interviewPlanId": "54b61fe4-d832-4ec3-832f-125763b44636",
+        "orderInInterviewPlan": 15,
+        "interviewStageGroupId": "23a71743-0ebf-4fc0-867a-fa1172192da8"
+      },
+      "source": {
+        "id": "f4986da6-4c7c-4439-b556-0af014c7f278",
+        "title": "Referral",
+        "isArchived": false,
+        "sourceType": {
+          "id": "b629a2f9-2f9e-4d17-a85b-52c92741c04e",
+          "title": "Referral",
+          "isArchived": false
+        }
+      },
+      "creditedToUser": {
+        "id": "01aa1354-5440-4c00-a685-bea32bd2a423",
+        "firstName": "Souvik",
+        "lastName": "Sen",
+        "email": "souvik@ema.co",
+        "globalRole": "Organization Admin",
+        "isEnabled": true,
+        "updatedAt": "2025-07-30T04:05:06.229Z"
+      },
+      "archiveReason": {
+        "id": "60ccbb47-3709-481c-97de-ab5cbaf238ea",
+        "text": "Not Interested after Outreach",
+        "reasonType": "RejectedByCandidate",
+        "isArchived": false
+      },
+      "job": {
+        "id": "b0a11778-29cd-4364-b0e5-88f906a8e863",
+        "title": "Machine Learning Engineer",
+        "locationId": "37098258-ef78-40e6-aa1f-8a32bc3a820e",
+        "departmentId": "68e1d8fb-2fe6-4991-b20f-be787e3d8605",
+        "brandId": "62646452-a548-4097-b608-98a992e1be15"
+      },
+      "hiringTeam": [
+        {
+          "userId": "6a7bb159-03d4-4bbb-96fc-4a55311db58d",
+          "firstName": "Abhishek",
+          "lastName": "Niranjan",
+          "email": "abhishek.niranjan@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "c03440bf-1af0-4ea1-b5ae-340df800e1de",
+          "firstName": "Arun",
+          "lastName": "Samudarla",
+          "email": "arun@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "0b41f713-62b4-4efc-b052-448e55668b52",
+          "firstName": "Phaneesh",
+          "lastName": "Gururaj",
+          "email": "phaneesh@ema.co",
+          "role": "Hiring Manager"
+        },
+        {
+          "userId": "b6a32465-2ad7-45dc-a5d1-067c1afb7c66",
+          "firstName": "Rajat",
+          "lastName": "Sharma",
+          "email": "rajat@ema.co",
+          "role": "Recruiter"
+        }
+      ],
+      "appliedViaJobPostingId": null,
+      "submitterClientIp": null,
+      "submitterUserAgent": null
+    }
+  ]
+}

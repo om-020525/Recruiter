@@ -39,20 +39,48 @@
                         </select>
                     </div>
                     
-                    <button type="submit" class="submit-btn">Retrieve Resume</button>
-                </form>
-            </div>
-            
-            <div class="job-summary">
-                <h3>Available Jobs ({{ jobs|length }} total)</h3>
-                <div class="job-list">
-                    {% for job in jobs %}
-                        <div class="job-item">
-                            <div class="job-name">{{ job.name }}</div>
-                            <div class="job-id">ID: {{ job.id }}</div>
+                    <div class="form-group">
+                        <div class="date-filter-container">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="filter_by_date" name="filter_by_date" onchange="toggleDateFilter()">
+                                <label for="filter_by_date">Filter by date</label>
+                            </div>
+                            <div>
+                                <label for="filter_date">Select date:</label>
+                                <input type="date" id="filter_date" name="filter_date" disabled style="opacity: 0.5;">
+                            </div>
                         </div>
-                    {% endfor %}
-                </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="application_status">Filter by Application Status:</label>
+                        <select id="application_status" name="application_status">
+                            <option value="">-- All Statuses --</option>
+                            <option value="Hired">Hired</option>
+                            <option value="Archived">Archived</option>
+                            <option value="Active">Active</option>
+                            <option value="Lead">Lead</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Retrieve Resume</button>
+                    
+                    <script>
+                        function toggleDateFilter() {
+                            const checkbox = document.getElementById('filter_by_date');
+                            const dateInput = document.getElementById('filter_date');
+                            
+                            if (checkbox.checked) {
+                                dateInput.disabled = false;
+                                dateInput.style.opacity = '1';
+                            } else {
+                                dateInput.disabled = true;
+                                dateInput.style.opacity = '0.5';
+                                dateInput.value = '';
+                            }
+                        }
+                    </script>
+                </form>
             </div>
         {% else %}
             <div class="form-section">

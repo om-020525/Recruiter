@@ -54,7 +54,7 @@ label {
     color: #333;
 }
 
-input[type="text"], select {
+input[type="text"], input[type="date"], select {
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;
@@ -63,10 +63,50 @@ input[type="text"], select {
     box-sizing: border-box;
 }
 
-input[type="text"]:focus, select:focus {
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
     border-color: #4CAF50;
     outline: none;
 }
+
+/* Date Filter Specific Styles */
+.date-filter-container {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label {
+    margin-bottom: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="date"]:disabled {
+    background-color: #f5f5f5;
+    color: #999;
+    cursor: not-allowed;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="date"]:not(:disabled) {
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+
 
 select {
     background-color: white;
@@ -108,42 +148,4 @@ select {
     margin-bottom: 20px;
 }
 
-/* Job Display */
-.job-summary {
-    background-color: #f0f8f0;
-    padding: 20px;
-    border-radius: 8px;
-    border-left: 4px solid #2e7d32;
-}
-
-.job-summary h3 {
-    color: #2e7d32;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-.job-list {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.job-item {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border-left: 4px solid #4CAF50;
-}
-
-.job-name {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.job-id {
-    color: #666;
-    font-size: 14px;
-} 
+ 
