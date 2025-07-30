@@ -52,6 +52,7 @@ def resume_downloader():
     
     if request.method == 'POST':
         selected_job_id = request.form.get('job_id')
+        selected_job_name = request.form.get('job_name')
         filter_by_date = request.form.get('filter_by_date')
         filter_date = request.form.get('filter_date')
         application_status = request.form.get('application_status')
@@ -103,16 +104,9 @@ def resume_downloader():
             web_logger.INFO(f"Candidate: {candidate['name']} (ID: {candidate['id']})")
         
         try:
-            # Find the selected job name
-            selected_job_name = None
-            jobs = session.get('jobs', [])
-            for job in jobs:
-                if job['id'] == selected_job_id:
-                    selected_job_name = job['name']
-                    break
-            
+            # Use job name directly from form, fallback to ID if not provided
             if not selected_job_name:
-                selected_job_name = selected_job_id  # Fallback to ID if name not found
+                selected_job_name = selected_job_id
             
             # Fetch URL, Download and Upload resumes
             web_logger.INFO(f"=== STARTING RESUME UPLOAD ===")

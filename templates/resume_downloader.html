@@ -28,15 +28,16 @@
                 <form method="POST">
                     <div class="form-group">
                         <label for="job_id">Choose a job to retrieve resumes:</label>
-                        <select id="job_id" name="job_id" required>
+                        <select id="job_id" name="job_id" required onchange="updateJobName()">
                             <option value="">-- Select a Job --</option>
                             {% for job in jobs %}
-                                <option value="{{ job.id }}" 
+                                <option value="{{ job.id }}" data-job-name="{{ job.name }}"
                                     {% if selected_job_id == job.id %}selected{% endif %}>
                                     {{ job.name }}
                                 </option>
                             {% endfor %}
                         </select>
+                        <input type="hidden" id="job_name" name="job_name" value="">
                     </div>
                     
                     <div class="form-group">
@@ -79,6 +80,23 @@
                                 dateInput.value = '';
                             }
                         }
+                        
+                        function updateJobName() {
+                            const jobSelect = document.getElementById('job_id');
+                            const jobNameInput = document.getElementById('job_name');
+                            const selectedOption = jobSelect.options[jobSelect.selectedIndex];
+                            
+                            if (selectedOption && selectedOption.getAttribute('data-job-name')) {
+                                jobNameInput.value = selectedOption.getAttribute('data-job-name');
+                            } else {
+                                jobNameInput.value = '';
+                            }
+                        }
+                        
+                        // Set initial job name if there's a pre-selected job
+                        document.addEventListener('DOMContentLoaded', function() {
+                            updateJobName();
+                        });
                     </script>
                 </form>
             </div>

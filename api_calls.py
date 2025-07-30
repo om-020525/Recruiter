@@ -126,7 +126,7 @@ def fetch_candidate_info(ashby_token, candidate_id):
         }
         
         payload = {
-            "candidateId": candidate_id
+            "id": candidate_id
         }
         
         response = requests.post(url, headers=headers, json=payload)
