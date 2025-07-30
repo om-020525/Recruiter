@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import requests
 import json
+import base64
 
 app = Flask(__name__)
 
@@ -16,10 +17,14 @@ def index():
             # Call Ashby API
             url = "https://api.ashbyhq.com/job.list"
             
+            # Base64 encode the token for Basic authentication
+            # For Ashby API, the format is typically username:password, but for API tokens it's often token:
+            encoded_token = base64.b64encode(f"{ashby_token}:".encode()).decode()
+            
             headers = {
                 "accept": "application/json",
                 "content-type": "application/json",
-                "authorization": f"Basic {ashby_token}"
+                "authorization": f"Basic {encoded_token}"
             }
             
             response = requests.post(url, headers=headers)
