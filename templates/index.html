@@ -3,48 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-        .status {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Ashby Job Fetcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Flask!</h1>
-        <p>Your Flask application is running successfully.</p>
-        <p>This is your index.html page being served by Flask.</p>
-        <div class="status">
-            ✅ Server Status: Running
+        <h1>Ashby Job Fetcher</h1>
+        
+        <form method="POST">
+            <div class="form-group">
+                <label for="ashby_token">Ashby Token:</label>
+                <input type="text" id="ashby_token" name="ashby_token" placeholder="Enter your Ashby API token" required>
+            </div>
+            <button type="submit" class="submit-btn">Fetch Jobs</button>
+        </form>
+        
+        {% if error %}
+        <div class="error">
+            <strong>Error:</strong> {{ error }}
         </div>
+        {% endif %}
+        
+        {% if jobs %}
+        <div class="results-section">
+            <h2>Job Results (Name, ID format):</h2>
+            <div class="job-list">
+                {% for job in jobs %}
+                <div class="job-item">
+                    <div class="job-name">{{ job.name }}</div>
+                    <div class="job-id">ID: {{ job.id }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <h3>Raw JSON Response:</h3>
+            <div class="raw-json">{{ raw_json }}</div>
+        </div>
+        {% endif %}
     </div>
 </body>
 </html> 
