@@ -103,14 +103,29 @@ def resume_downloader():
             web_logger.INFO(f"Candidate: {candidate['name']} (ID: {candidate['id']})")
         
         try:
+            # Find the selected job name
+            selected_job_name = None
+            jobs = session.get('jobs', [])
+            for job in jobs:
+                if job['id'] == selected_job_id:
+                    selected_job_name = job['name']
+                    break
+            
+            if not selected_job_name:
+                selected_job_name = selected_job_id  # Fallback to ID if name not found
+            
             # Fetch URL, Download and Upload resumes
             web_logger.INFO(f"=== STARTING RESUME UPLOAD ===")
-            download_results = add_resumes(ashby_token, google_token, filtered_candidates)
+            folder_name = f"{selected_job_name}_{application_status}" if application_status else selected_job_name
+            download_results = add_resumes(ashby_token, google_token, filtered_candidates, folder_name)
             
             successful_uploads = 0
             failed_uploads = 0
+
             
             for result in download_results:
+                web_logger.INFO(f"Result: {result} {result['error'] is None}")
+                
                 if result['error'] is None:
                     successful_uploads += 1
 
