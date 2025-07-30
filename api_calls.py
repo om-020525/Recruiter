@@ -373,6 +373,7 @@ def add_resumes(ashby_token, google_token, filtered_candidates, folder_name):
                 'upload_info': upload_info,
                 'error': None
             }
+            web_logger.INFO(f"Result: {result}")
         except Exception as e:
             result['error'] = str(e)
         

@@ -51,8 +51,9 @@ def resume_downloader():
         #return redirect(url_for('index'))
     
     if request.method == 'POST':
-        selected_job_id = request.form.get('job_id')
-        selected_job_name = request.form.get('job_name')
+        job_data = json.loads(request.form.get('job_id'))
+        selected_job_id = job_data['id']
+        selected_job_name = job_data['name']
         filter_by_date = request.form.get('filter_by_date')
         filter_date = request.form.get('filter_date')
         application_status = request.form.get('application_status')
@@ -106,7 +107,7 @@ def resume_downloader():
         try:
             # Use job name directly from form, fallback to ID if not provided
             if not selected_job_name:
-                selected_job_name = selected_job_id
+                raise Exception("Job name not found")
             
             # Fetch URL, Download and Upload resumes
             web_logger.INFO(f"=== STARTING RESUME UPLOAD ===")
@@ -122,15 +123,8 @@ def resume_downloader():
                 
                 if result['error'] is None:
                     successful_uploads += 1
-
-                    web_logger.INFO(f"✓ SUCCESS: {result['candidate_name']} (ID: {result['candidate_id']})")
-                    web_logger.INFO(f"  - File ID: {result['upload_info']['file_id']}")
-                    web_logger.INFO(f"  - File Size: {result['upload_info']['file_size']} bytes")
                 else:
                     failed_uploads += 1
-                    
-                    web_logger.INFO(f"✗ FAILED: {result['candidate_name']} (ID: {result['candidate_id']})")
-                    web_logger.INFO(f"  - Error: {result['error']}")
             
             web_logger.INFO(f"=== RESUME UPLOAD COMPLETE ===")
             web_logger.INFO(f"Successful uploads: {successful_uploads}")
