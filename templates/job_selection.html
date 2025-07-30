@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Job</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Job</h1>
+        <p>Choose a job to view its applications</p>
+        
+        <form method="POST" action="{{ url_for('applications') }}">
+            <div class="form-group">
+                <label for="selected_job">Job Name:</label>
+                <select id="selected_job" name="selected_job" required>
+                    <option value="">-- Select a Job --</option>
+                    {% for job in jobs %}
+                    <option value="{{ job.name }}">{{ job.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">View Applications</button>
+        </form>
+        
+        {% if error %}
+        <div class="error">
+            <strong>Error:</strong> {{ error }}
+        </div>
+        {% endif %}
+        
+        <div style="margin-top: 20px;">
+            <a href="/" style="color: #666; text-decoration: none;">← Back to Token Input</a> |
+            <a href="{{ url_for('results') }}" style="color: #666; text-decoration: none;">View All Jobs</a>
+        </div>
+    </div>
+</body>
+</html> 

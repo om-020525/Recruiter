@@ -31,7 +31,7 @@ label {
     color: #333;
 }
 
-input[type="text"] {
+input[type="text"], select {
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;
@@ -40,9 +40,14 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus, select:focus {
     border-color: #4CAF50;
     outline: none;
+}
+
+select {
+    background-color: white;
+    cursor: pointer;
 }
 
 .submit-btn {
